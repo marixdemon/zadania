@@ -1,0 +1,32 @@
+h1 {
+	background-color: aqua;
+}
+p:nth-of-type(1) {
+	background-color: aquamarine;
+}
+h2 {
+	background-color: bisque;
+}
+
+p:nth-of-type(2) {
+	background-color: blueviolet;
+}
+ol {
+	background-color: chocolate;
+}
+
+li:nth-child(1) {
+	color: cadetblue;
+}
+li:nth-child(2) {
+	color: rgb(173, 131, 229);
+}
+li:nth-child(3) {
+	color: rgb(100, 67, 56);
+}
+li:nth-child(4) {
+	color: rgb(190, 5, 110);
+}
+li:nth-child(5) {
+	color: rgb(143, 197, 27);
+}
