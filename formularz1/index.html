@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <form action="https://formspree.io/f/mnqkyaew" method="POST">
+
+        <label>Imię <input type="text" name="name"></label> <br> <br>
+        <label>Nazwisko <input type="text" name="surname"></label> <br> <br>
+        <label>Email <input type="email" name="email"></label> <br> <br>
+        <label>Nr telefonu <input type="phone" name="phone"></label> <br> <br>
+        <label>Miasto
+            <select name="city" id="city">
+                <option value="kraków">Kraków</option>
+                <option value="warszawa">Warszawa</option>
+                <option value="gdańsk">Gdańsk</option>
+            </select> <br> <br>
+        </label>
+        <label>Płeć</label>
+        <label><input type="radio" name="gender" id="gender">Kobieta</label>
+        <label><input type="radio" name="gender" id="gender">Mężczyzna</label> <br> <br>
+        <label>Zgoda na dane osobowe <input type="checkbox" name="agreement"></label> <br><br>
+
+        <label>Wiadomość <textarea name="message" cols="30" rows="5"></textarea> <br> <br>
+            <input type="submit" value="Wyślij">
+
+
+
+
+    </form>
+</body>
+
+</html>
