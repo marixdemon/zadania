@@ -1,0 +1,18 @@
+div {
+	width: 150px;
+	height: 150px;
+	background-color: olive;
+	margin: 50px;
+	transition: 0.3s linear;
+}
+
+.box-one:hover {
+	width: 300px;
+}
+.box-two:hover {
+	height: 300px;
+}
+.box-three:hover {
+	width: 300px;
+	height: 300px;
+}
