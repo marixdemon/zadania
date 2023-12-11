@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section.achievements {
+	padding: 60px;
+}
+
+section .image-card {
+	display: flex;
+	flex-direction: column;
+}
+
+.image-card img {
+}
+
+.image-card .description {
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.aboutus {
+	padding: 60px 0;
+}
+
+.person img {
+	max-width: 200px;
+	border-radius: 50%;
+	padding: 30px 0;
+}
+
+section.contact {
+	padding: 60px 0;
+	background-image: url(img/slider-1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+form button {
+	width: 100%;
+}
+
+footer {
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	section .image-card {
+		display: flex;
+		flex-direction: row;
+	}
+	.image-card img {
+		width: 50%;
+	}
+	.image-card .description {
+		max-width: 50%;
+	}
+	.image-card:nth-child(even) {
+		flex-direction: row-reverse;
+	}
+
+	section.aboutus .container {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	form {
+		display: flex;
+	}
+	form button {
+		width: 30%;
+		margin-left: 20px;
+	}
+}
